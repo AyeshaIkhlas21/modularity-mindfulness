@@ -108,6 +108,7 @@ h1 {
   grid-column: 1;
   grid-row: 1;
   font-size: 1.125rem;
+  font-weight: bold;
 }
 
 h1,

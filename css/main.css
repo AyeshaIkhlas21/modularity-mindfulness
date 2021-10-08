@@ -41,7 +41,7 @@ main {
 }
 
 main img {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   margin-top: -1rem;
 }
 
@@ -50,15 +50,15 @@ header {
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
-  margin: 0;
+  margin-left: -1rem;
   display: flex;
   justify-content: center;
   font-size: 1.125rem;
   font-weight: bold;
-  margin-bottom: -1rem;
 }
 
 section img {
@@ -71,16 +71,15 @@ nav {
 }
 
 header ul li a {
-  margin: 0;
-  padding: .5em 1em .6em;
-  padding-right: 0;
+  margin-top: -1.5rem;
+  padding: .5rem;
 }
 
 nav li {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  margin-bottom: 1rem;
+  align-items: center;
+  margin-bottom: .5rem;
 }
 
 li a {
@@ -91,6 +90,9 @@ li a {
 nav ul {
   list-style-type: none;
   text-decoration: none;
+  margin-left: -1rem;
+  padding: 0;
+  padding-left: 1rem;
 
   display: flex;
   justify-content: space-around;
@@ -102,7 +104,6 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: .5em 1em .6em;
   padding-right: 0;
 }
 
@@ -112,11 +113,13 @@ h2 {
   align-items: start;
   margin: 0 0 1.5rem;
   font-size: 1rem;
+  padding-top: 1rem;
 }
 
 i {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 header i {
@@ -170,7 +173,6 @@ footer {
   align-items: center;
   border-top: .2rem solid #e2e2e2;
   font-size: 1rem;
-  margin-bottom: 1rem;
 
   display: flex;
   flex-direction: column;

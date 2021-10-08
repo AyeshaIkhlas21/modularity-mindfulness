@@ -52,6 +52,15 @@ header {
   flex-direction: column;
 }
 
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: -1rem;
+}
+
 section img {
   margin: 0;
 }
@@ -86,15 +95,6 @@ nav ul {
   display: flex;
   justify-content: space-around;
   height: 100%;
-}
-
-h1 {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  font-size: 1.125rem;
-  font-weight: bold;
-  margin-bottom: -1rem;
 }
 
 h1,
@@ -135,29 +135,13 @@ section i {
   font-size: 1.5rem;
 }
 
-div {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  text-align: center;
-  margin: 1rem;
-}
-
 .intro {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  margin: 1.5rem;
-  align-items: center;
-  align-self: center;
-  border-top: .2rem solid #e2e2e2;
-  border-bottom: .2rem solid #e2e2e2;
-  /* margin: 0 auto 1.5rem;
+  margin: 0 auto 1.5rem;
   max-width: 30em;
   padding: 1rem;
   border-bottom: .2rem solid #e2e2e2;
   border-top: .2rem solid #e2e2e2;
-  text-align: center; */
+  text-align: center;
 }
 
 div i {
@@ -294,24 +278,13 @@ footer {
     font-size: 1.5rem;
   }
 
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-    text-align: center;
-    margin: 1rem;
-  }
-
   .intro {
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto 1.5rem;
+    max-width: 30em;
     padding: 1rem;
-    margin: 1.5rem;
-    align-items: center;
-    border-top: .2rem solid #e2e2e2;
     border-bottom: .2rem solid #e2e2e2;
-    justify-content: center;
+    border-top: .2rem solid #e2e2e2;
+    text-align: center;
   }
 
   div i {

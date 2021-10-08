@@ -309,29 +309,31 @@ footer {
     border-radius: .3rem;
     text-decoration: none;
     padding: .5em 1em .6em;
-    color: #3783a3;
+    justify-content: flex-start;
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: row;
   }
 
-  article a {
+  article {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
   }
 
   section p {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
     margin-bottom: 1.5rem;
     margin-top: -.5rem;
   }
 
   footer {
     padding: .5rem;
-    margin: 1rem;
+    margin-top: 0;
     align-items: center;
     border-top: .2rem solid #e2e2e2;
-    font-size: 1rem;
     justify-content: center;
+    /* margin-bottom: .5rem; */
   }
 
 }
